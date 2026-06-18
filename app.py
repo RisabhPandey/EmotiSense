@@ -70,7 +70,8 @@ html, body, [class*="css"] {
 }
 
 /* ── Hide streamlit chrome ────────────────────────────── */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
+header { background-color: transparent !important; }
 .block-container { padding-top: 1.5rem; padding-bottom: 2rem; }
 
 /* ── Sidebar ──────────────────────────────────────────── */
